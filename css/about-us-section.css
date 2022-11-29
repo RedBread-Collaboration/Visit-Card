@@ -1,0 +1,48 @@
+#about .content {
+    /* height: calc(100vh - 100px) !important; */
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.person__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    height: 45%;
+    width: 30%;
+    margin: 0 10px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 90px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 200ms;
+}
+
+.person__card:hover {
+    transform: scale(1.05);
+}
+
+.person__photo {
+    height: 40%;
+    width: 100%;
+}
+
+.person__photo-img {
+    width: 50%;
+    border-radius: 90px;
+}
+
+.person__name {
+    width: 80%;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.person__role {
+    width: 80%;
+    font-size: 20px;
+    color: #00000080;
+}
