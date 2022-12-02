@@ -9,11 +9,12 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    z-index: 1;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 80%;
+    width: 70%;
 }
